@@ -1,9 +1,4 @@
-package Geometries;
-
-import primitives.Point3D;
-import primitives.Ray;
-
-import java.util.List;
+package geometries;
 
 public abstract class RadialGeometry {
     private double _radius;

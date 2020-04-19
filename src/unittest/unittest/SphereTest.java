@@ -1,13 +1,9 @@
 package unittest;
 
-import Geometries.Sphere;
+import geometries.Sphere;
 import org.junit.Test;
 import primitives.Point3D;
-import primitives.Ray;
 import primitives.Vector;
-
-import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.Assert.*;
 

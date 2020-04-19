@@ -2,7 +2,7 @@ package unittest;
 
 import org.junit.Test;
 import primitives.*;
-import Geometries.*;
+import geometries.*;
 
 
 import static org.junit.Assert.*;

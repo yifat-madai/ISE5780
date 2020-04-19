@@ -1,11 +1,9 @@
-package Geometries;
+package geometries;
 
 import primitives.Point3D;
-import primitives.Util;
 import primitives.Vector;
 import primitives.Ray;
 
-import java.util.Arrays;
 import java.util.List;
 
 

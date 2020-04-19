@@ -1,11 +1,9 @@
-package Geometries;
+package geometries;
 
 import primitives.Point3D;
 import primitives.Ray;
 import primitives.Vector;
-import primitives.Util;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Sphere extends RadialGeometry {
