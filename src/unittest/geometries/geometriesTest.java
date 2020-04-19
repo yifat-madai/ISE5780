@@ -19,8 +19,8 @@ public class geometriesTest {
       //check if list is null
         try
         {
-            Ray r=new Ray(new Point3D(1,1,0),new Vector(1,1,1));
-            geometries g=new geometries();
+            Ray r = new Ray(new Point3D(1, 1, 0), new Vector(1, 1, 1));
+            Geometries g = new Geometries();
             g.findIntersections(r);
 
             fail("list is null");
@@ -30,15 +30,15 @@ public class geometriesTest {
         assertTrue(true);
 
 //no shapes intersection
-        Ray r=new Ray(new Point3D(1,1,0),new Vector(1,1,1));
-        geometries g =new geometries();
-        List<Point3D>l=g.findIntersections(r);
+        Ray r = new Ray(new Point3D(1, 1, 0), new Vector(1, 1, 1));
+        Geometries g = new Geometries();
+        List<Point3D> l = g.findIntersections(r);
         assertEquals(0,l.size());
 
         //one shapes intersection
 
-        Ray r1=new Ray(new Point3D(1,1,0),new Vector(1,1,1));
-        geometries g1 =new geometries();
+        Ray r1 = new Ray(new Point3D(1, 1, 0), new Vector(1, 1, 1));
+        Geometries g1 = new Geometries();
         l=g.findIntersections(r);
         assertEquals(1,l.size());
 

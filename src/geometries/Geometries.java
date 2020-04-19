@@ -6,18 +6,18 @@ import primitives.Ray;
 import java.util.ArrayList;
 import java.util.List;
 
-public class geometries implements Intersectable {
+public class Geometries implements Intersectable {
     public List<Intersectable> getList() {
         return list;
     }
 
     private List<Intersectable> list;
 
-    public geometries() {
+    public Geometries() {
         this.list = new ArrayList<>();
     }
 
-    public geometries(Intersectable... Geometries) {
+    public Geometries(Intersectable... Geometries) {
 
         for (Intersectable intersectable : Geometries) {
             list = new ArrayList<>(Geometries.length);
